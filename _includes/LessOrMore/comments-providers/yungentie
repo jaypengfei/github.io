@@ -4,7 +4,7 @@
 var cloudTieConfig = {
   url: document.location.href, 
   sourceId: "",
-  productKey: "e68668572a574120ad554fab5b49d365",
+  productKey: "4ba962b86bba4d4a8596cf89b28854ca",
   target: "cloud-tie-wrapper"
 };
 var yunManualLoad = true;
