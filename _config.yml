@@ -1,13 +1,13 @@
 # Site settings
-name: Less Or More
-email: luoyan35714@126.com
-author: Freud Kang
-url: http://www.hifreud.com
+name: 凌晨四点半
+email: jaypengfei@foxmail.com
+author: 凌晨四点半
+url: 
 resume_site: http://www.hifreud.com/Resume.io/
-github: https://github.com/luoyan35714/
-baseurl: "/LessOrMore"
+github: https://github.com/jaypengfei/
+baseurl: 
 description: Actually, less is more!
-meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+meta_description: 个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
 motto: It's our wits that make us men.
 banner: 学而不思则罔，思而不学则殆。
 
@@ -17,8 +17,8 @@ paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-github_username: luoyan35714
-highlighter: Pygments
+github_username: jaypengfei
+highlighter: rouge
 
 # Build settings
 markdown: kramdown
@@ -29,9 +29,9 @@ FB:
   comments :
     provider : yungentie
     duoshuo:
-        short_name : luoyan35714
+        short_name : jaypengfei
     disqus :
-        short_name : freudkang
+        short_name : jaypengfei
     # facebook :
     #   appid : 123
     #   num_posts: 5
