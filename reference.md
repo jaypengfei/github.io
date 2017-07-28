@@ -43,7 +43,6 @@ http://blog.csdn.net/lifetragedy
 
 [汪海的实验室]
 =====================
-一个14年毕业的学生，差距啊！
 [http://blog.csdn.net/pleasecallmewhy/article/details/8923725](http://blog.csdn.net/pleasecallmewhy/article/details/8923725)
 
 [Byvoid]
