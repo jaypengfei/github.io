@@ -3,7 +3,7 @@ layout: post
 title:  数学基础篇1-梯度
 date:   2017-07-06 00:00:00 +0800
 categories: 数学
-tag: 数学 梯度 机器学习
+tag: 数学
 ---
 
 * content
