@@ -17,17 +17,20 @@ tag: 博客
 
 
 ![方向导数]({{ '/styles/images/post1/fangxiangdaoshu.png' | prepend: site.baseurl }})
+
 2.梯度
 ====================================
 
 
 ![梯度]({{ '/styles/images/post1/tidu.png' | prepend: site.baseurl }})
+
 3.梯度下降法
 ====================================
 
 
 ![梯度下降法]({{ '/styles/images/post1/tiduxiajiangfa1.png' | prepend: site.baseurl }})
 ![梯度下降法]({{ '/styles/images/post1/tiduxiajiangfa2.png' | prepend: site.baseurl }})
+
 4.坐标下降法
 ====================================
 
