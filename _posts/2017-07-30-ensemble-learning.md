@@ -2,7 +2,7 @@
 layout: post
 title:  机器学习-集成学习
 date:   2017-07-30 15:45:00 +0800
-categories: machine learning
+categories: 机器学习
 tag: 机器学习
 ---
 
@@ -31,6 +31,7 @@ tag: 机器学习
 
 5.一个例子
 ====================================
+
 
 
 

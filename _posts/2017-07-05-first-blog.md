@@ -2,7 +2,7 @@
 layout: post
 title:  第一篇独立博客文章
 date:   2017-07-05 00:00:00 +0800
-categories: document
+categories: 随记
 tag: 博客
 ---
 
