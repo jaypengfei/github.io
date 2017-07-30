@@ -16,7 +16,7 @@ tag: 博客
 ====================================
 
  	设函数z=f(x,y)现在来讨论函数z在某一点p(x,y)沿某一方向的变化率问题。
- 	![Boltzmann]({{ '/styles/images/post1/Boltzmann.png' | prepend: site.baseurl }})
+ 	![Boltzmann]({{ '/styles/images/post1/fangxiangdaoshu.png' | prepend: site.baseurl }})
 
  	等我先把数学公式显示错误解决在更新。。。
 
