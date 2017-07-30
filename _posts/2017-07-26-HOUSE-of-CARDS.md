@@ -2,8 +2,8 @@
 layout: post
 title:  "《纸牌屋》中文版"
 date:   2017-07-26 23:31:01 +0800
-categories: 翻译 文学
-tag: 文学
+categories: 文学
+tag: 翻译 文学
 ---
 
 * content
