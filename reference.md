@@ -43,7 +43,7 @@ http://blog.csdn.net/lifetragedy
 
 [汪海的实验室]
 =====================
-[http://blog.csdn.net/pleasecallmewhy/article/details/8923725](http://blog.csdn.net/pleasecallmewhy/article/details/8923725)
+[https://blog.callmewhy.com/](https://blog.callmewhy.com/)
 
 [Byvoid]
 =====================
