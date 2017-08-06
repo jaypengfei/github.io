@@ -39,14 +39,22 @@ tag: Concurrency
         return value;
     	}
     	public synchronized long increment() {
-        if(value == long.MAX_VALUE)
+        if(value == Long.MAX_VALUE)
           throw new illegalStateException("counter overflow");
         return ++value;
     	} 
   }
   ```
 
+同步策略（synchronization Policy）定义了如何在不违背对象不变性条件或后验条件的情况下对其状态的访问操作进行协同。同步策略规定了如何将不可变性、线程封闭与加锁机制等结合起来以维护线程的安全性，并且还规定了哪些变量由哪些锁来保护。要确保开发人员可以对这个类进行分析与维护，就必须将同步策略写为正式文档。
 
+4.1.1 收集同步需求
+
+要确保类的线程安全性，就需要确保它的不可变性条件不会再并发访问的情况下被破坏，这就需要对其状态进行推断。对象和变量都有一个状态空间，即所有可能的取值。状态空间越小，就越容易判断线程的状态。final类型的域使用的越多，就越能简化对象可能状态的分析过程。（极端情况下，不可变对象只有唯一的状态）<br>
+
+在许多类中都定义了一些不可变条件，用于判断状态是否有效。Counter中的value域是long类型的变量，其状态空间从Long.MIN_VALUE到Long.MAX_VALUE，但value在取值范围上存在着一个限制，即不能为负值。
+
+同样，在操作中
 
 <hr>
 ​最后的最后，老婆我爱你。
