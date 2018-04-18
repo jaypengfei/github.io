@@ -25,7 +25,7 @@ tag: synchronized
 
 在Java代码中使用synchronized可用在代码块和方法中，具体有如下几种使用场景：
 
-<center>**表1 synchronized的使用场景**</center>
+<center>表1 synchronized的使用场景</center>
 
 |        分类        |    被锁对象    | 伪代码                                          |
 | :----------------: | :------------: | ----------------------------------------------- |
@@ -58,9 +58,9 @@ javap -v Main.class
 
 查看字节码文件，如下：
 
-![](D:\GitHub\jaypengfei.github.io\styles\images\java\synchronized\javap-v-synchronized.png)
+[synchronized]({{ '/styles/images/java/synchronized/pic1.png' | prepend: site.baseurl }})
 
-<center>**图1 Main.class的字节码文件**</center>
+<center>图1 Main.class的字节码文件</center>
 
 如上图所示，注意其中的第4，6以及12行，这也是添加了synchronized以后独有的。执行同步代码块后首先要执行monitorenter指令，退出的时候执行monitorexit指令。通过分析以后可以看出，使用synchronized进行同步，其关键是必须要对对象的监视器monitor进行获取，当咸亨获取monitor后才能继续往下执行，否则就只能等待。而很显然这个获取的过程是互斥的，即同一时刻只有一个线程能够获取到monitor。上面的例子在执行完同步代码块之后紧接着会再去执行一个静态同步方法，而这个方法锁的对象依然是这个类对象，那么正在执行的线程还需要获取该锁吗？答案是不必，从上图中就可以看出，执行静态同步方法时就只有一条monitorexit指令并没有monitorenter指令来获取锁。这也就是**锁的重入性**，即在同一线程中，线程不需要再次获取同一把锁。synchronized先天具有重入性，每个对象拥有一个计数器，当咸亨获取该对象锁后，计数器加一，释放锁后计数器减一。
 
@@ -68,9 +68,9 @@ javap -v Main.class
 
 下图表示了对象，对象监视器，同步队列以及执行线程状态之间的关系：
 
-![](D:\GitHub\jaypengfei.github.io\styles\images\java\synchronized\pic2.png)
+[synchronized]({{ '/styles/images/java/synchronized/pic2.png' | prepend: site.baseurl }})
 
-<venter>**图2 对象，对象监视器，同步队列以及执行线程状态之间的关系**</center>
+<center>图2 对象，对象监视器，同步队列以及执行线程状态之间的关系</center>
 
 该图可以看出，任意线程对Object的访问，首先要获得Object的监视器，如果获取失败，该线程就进入同步状态，线程状态变为BLOCKED，当Object的监视器占有者释放后，在同步队列中得线程就会有机会重新获取该监视器。
 
