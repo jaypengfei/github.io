@@ -31,11 +31,26 @@ tag: synchronized
 | :----------------: | :------------: | ----------------------------------------------- |
 |      实例方法      |  类的实例对象  | public **synchronized** void method() {}        |
 |      静态方法      |     类对象     | public **static synchronized** void method() {} |
-|      实例对象      |  类的实例对象  | synchronized (this) {}                          |
-|     class对象      |     类对象     | synchronized (Demo.class) {}                    |
-| 任意实例对象Object | 实例对象Object | String lock = "test"; synchronized(lock) {}     |
+|      实例对象      |  类的实例对象  | **synchronized (this)** {}                      |
+|     class对象      |     类对象     | **synchronized (Demo.class)** {}                |
+| 任意实例对象Object | 实例对象Object | String lock = "test"; **synchronized(lock)** {} |
 
-
+$$
+$$ x^{2} \geq 0\qquad \textrm{for all }x\in\mathbf{R} $$
+$$x^{2} \geq 0\qquad \textrm{for all }x\in\mathbb{R} $$
+$$\sin \alpha = \frac{a}{c} $$
+$$x^{1/2} $$
+$$ {\int_{0}^{\frac{\pi}{2}}} $$
+$$ \sum_{i=1}^{n}$$
+$$\prod_\epsilon$$
+$$ 1+\left(\frac {1}{1-x^2}\right) ^3 \qquad 1+(\frac {1}{1-x^2}) ^3$$
+$$\mathbf{X} =
+	\left( \begin{array}{ccc}
+	x\_{11} & x\_{12} & \ldots \\\
+	x\_{21} & x\_{22} & \ldots \\\
+	\vdots & \vdots & \ddots
+	\end{array} \right) $$
+$$
 
 
 
