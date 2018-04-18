@@ -58,7 +58,7 @@ javap -v Main.class
 
 查看字节码文件，如下：
 
-![synchronized]({{ '/styles/images/java/synchronized/pic1.png' | prepend: site.baseurl }})
+<center>![synchronized]({{ '/styles/images/java/synchronized/pic1.png' | prepend: site.baseurl }})</center>
 
 <center>图1 Main.class的字节码文件</center>
 
@@ -68,7 +68,7 @@ javap -v Main.class
 
 下图表示了对象，对象监视器，同步队列以及执行线程状态之间的关系：
 
-![synchronized]({{ '/styles/images/java/synchronized/pic2.png' | prepend: site.baseurl }})
+<center>![synchronized]({{ '/styles/images/java/synchronized/pic2.png' | prepend: site.baseurl }})</center>
 
 <center>图2 对象，对象监视器，同步队列以及执行线程状态之间的关系</center>
 
