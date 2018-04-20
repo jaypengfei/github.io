@@ -48,7 +48,7 @@ public class SynchronizedDemo {
         }
         method();
     }
-    public static void method() {}
+    public synchronized static void method() {}
 }
 ```
 
