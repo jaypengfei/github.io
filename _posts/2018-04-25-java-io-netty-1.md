@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  一致性哈希算法
+title:  Netty入门篇1-I/O
 date:   2018-04-25 16:19:00 +0800
-categories: 算法
-tag: Hash
+categories: Java
+tag: netty
 ---
 
 * content
