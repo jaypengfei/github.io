@@ -73,7 +73,7 @@ select, poll, epoll都是I/O多路复用的机制.I/O多路复用就是通过一
 
 调用过程如下:
 
-![select]({{ '/image/java/netty/select.png' | prepend: site.baseurl }})
+![select]({{ './image/java/netty/select.png' | prepend: site.baseurl }})
 1. 使用copy_from_user从用户空间拷贝fd_set到内核空间
 
 2. 注册回调函数__pollwait
@@ -101,6 +101,9 @@ select的几大缺点：
 3. select支持的文件描述符数量太小了，默认是1024
 
 * poll的实现
+
+
+
 * epoll的实现
 
 
