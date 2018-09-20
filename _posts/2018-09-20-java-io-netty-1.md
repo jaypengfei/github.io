@@ -73,12 +73,7 @@ select, poll, epoll都是I/O多路复用的机制.I/O多路复用就是通过一
 
 调用过程如下:
 
-<<<<<<< HEAD
-![select]({{ './image/java/netty/select.png' | prepend: site.baseurl }})
-=======
 ![select]({{ '/image/java/netty/select.png' | prepend: site.baseurl }})
->>>>>>> 1d7ebdf2f6cf71e4160132f865fe8df5e9185182
-
 1. 使用copy_from_user从用户空间拷贝fd_set到内核空间
 
 2. 注册回调函数__pollwait
